@@ -1,0 +1,50 @@
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+         height="80">
+     <e:states>
+         <e:State name="up" />
+         <e:State name="down" />
+         <e:State name="disabled" />
+     </e:states>
+     <e:UIAsset width="100%" height="100%"
+                source.up="button_normal_png"
+                source.down="button_down_png"
+                source.disabled="button_disabled_png" />
+
+     <e:UIAsset id="UIAsset" height="100%" width="100" />
+
+     <e:Label id="title"
+               size="22"
+               fontFamily="Tahoma"
+               width="60%"
+               textColor="0x111111"
+               textColor.down="0xffffff"
+               textColor.disabled="0xcccccc"
+               textAlign="left"
+               paddingLeft="100"
+               paddingTop="0"
+               verticalAlign="middle" />
+
+      <e:Label id="head"
+                size="19"
+                fontFamily="Tahoma"
+                width="60%"
+                textColor="0x111111"
+                textColor.down="0xffffff"
+                textColor.disabled="0xcccccc"
+                textAlign="left"
+                paddingLeft="100"
+                paddingTop="30"
+                verticalAlign="middle" />
+
+       <e:Label id="price"
+                 size="22"
+                 fontFamily="Tahoma"
+                 width="60%"
+                 textColor="0xff0000"
+                 textColor.down="0xffffff"
+                 textColor.disabled="0xcccccc"
+                 textAlign="left"
+                 paddingLeft="100"
+                 paddingTop="50"
+                 verticalAlign="middle" />
+ </e:Skin>
